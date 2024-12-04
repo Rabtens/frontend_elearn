@@ -1,0 +1,257 @@
+/* Container */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #c8d8e4; /* Light blue background */
+    padding: 20px;
+    gap: 20px; /* Space between login card and image */
+    position: relative;
+}
+  
+/* Login Card */
+.login-card {
+    width: 350px;
+    padding: 20px;
+    border-radius: 15px;
+    background: #ffffff; /* White */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+}
+  
+  /* Existing close-btn styles for Login remain unaffected */
+  .close-btn {
+    position: absolute;
+    top: 20px; /* Adjust for the Login page layout */
+    right: 20px; /* Keeps the alignment for the Login page */
+    background: none;
+    border: none;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #333; /* Default dark color */
+  }
+  
+  .close-btn:hover {
+    color: #555; /* Slightly lighter on hover */
+  }
+  
+  
+/* Close Button */
+.close-btn {
+    position: absolute;
+    top: 10px; /* Adjusted for better placement */
+    right: 15px; /* Keeps button inside the white card */
+    background: none;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #2b6777; /* Dark blue */
+  }
+  
+  .close-btn:hover {
+    color: #52ab98; /* Teal */
+  }
+  
+  
+/* Login Card Title */
+.login-card h2 {
+    margin-bottom: 20px;
+    color: #2b6777; /* Dark blue */
+}
+  
+/* Input Fields */
+.input-group {
+    margin-bottom: 15px;
+    text-align: left; /* Aligns the content to the left */
+}
+
+.input-group label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #2b6777; /* Dark blue */
+    padding-left: 5px; /* Add slight padding for alignment */
+}
+
+.input-group input {
+    width: calc(100% - 10px); /* Adjusts width to match padding */
+    padding: 10px;
+    margin: 0;
+    border-radius: 5px;
+    border: 1px solid #52ab98; /* Teal border */
+    background: #f2f2f2; /* Light gray background */
+    color: #2b6777; /* Dark blue text */
+    box-sizing: border-box; /* Ensures padding does not overflow */
+}
+
+.input-group input:focus {
+    outline: none;
+    border-color: #52ab98; /* Teal */
+    background: #ffffff; /* White */
+}
+  
+/* Remember Me and Forgot Password */
+.extras {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+    font-size: 12px;
+    color: #2b6777; /* Dark blue */
+    margin-top: -10px;
+}
+
+.extras a {
+    color: #52ab98; /* Teal */
+    text-decoration: none;
+    margin-top: 25px;
+}
+
+.extras a:hover {
+    text-decoration: underline;
+}
+  
+/* Login Button */
+.login-btn {
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(to right, #2b6777, #52ab98); /* Gradient from dark blue to teal */
+    border: none;
+    border-radius: 5px;
+    color: #ffffff; /* White text */
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background: linear-gradient(to right, #52ab98, #2b6777); /* Reverse gradient */
+}
+  
+/* Register Option */
+.register-option {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #2b6777; /* Dark blue */
+}
+
+.register-option a {
+    color: #52ab98; /* Teal */
+    text-decoration: none;
+}
+
+.register-option a:hover {
+    text-decoration: underline;
+}
+  
+/* Social Media Login */
+.social-login {
+    margin-top: 15px;
+}
+
+.social-btn {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.google-btn {
+    background: #52ab98; /* Teal */
+    color: #ffffff; /* White */
+}
+
+.google-btn:hover {
+    background: #2b6777; /* Dark blue */
+}
+
+.facebook-btn {
+    background: #2b6777; /* Dark blue */
+    color: #ffffff; /* White */
+}
+
+.facebook-btn:hover {
+    background: #52ab98; /* Teal */
+}
+
+.social-icon {
+    width: 20px;
+    height: 20px;
+}
+
+/* Decorative Image */
+.login-image {
+    height: auto;
+    max-height: 300px; /* Adjust height as needed */
+    width: auto;
+    max-width: 300px; /* Maintain proportions */
+    border-radius: 10px; 
+    position: relative;
+    bottom: -100px; /* Align to the bottom of the card */
+    right: 0;
+}
+  
+  /* Other shared styles from Login.css can be reused here as needed */
+  
+/* Checkbox Alignment */
+.checkbox-container {
+    display: flex;
+    align-items: center; /* Aligns checkbox and label on the same line */
+    font-size: 14px;
+    color: #2b6777; /* Dark blue */
+    gap: 5px; /* Adds space between checkbox and text */
+    margin-top: 15px; /* Provides spacing above */
+  }
+  
+  .checkbox-container label {
+    display: inline; /* Ensures the text stays next to the checkbox */
+    font-size: 14px;
+    color: #2b6777; /* Dark blue */
+  }
+  
+  .checkbox-container a {
+    color: #52ab98; /* Teal */
+    text-decoration: none;
+  }
+  
+  .checkbox-container a:hover {
+    text-decoration: underline;
+  }
+
+  /* Close Button for Register Page */
+.register-close-btn {
+    position: absolute;
+    top: 10px; /* Adjusted to be near the top */
+    right: 10px; /* Adjusted to be near the right */
+    background: none;
+    border: none;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #2b6777; /* Dark blue */
+}
+
+.register-close-btn:hover {
+    color: #52ab98; /* Teal on hover */
+}
+
+  /* Decorative Image */
+.go-image {
+    height: auto;
+    max-height: 300px; /* Adjust height as needed */
+    width: auto;
+    max-width: 300px; /* Maintain proportions */
+    border-radius: 10px; 
+    position: relative;
+    bottom: -140px; /* Align to the bottom of the card */
+    right: 0;
+}
+
+  
